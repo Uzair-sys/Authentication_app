@@ -1,0 +1,45 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "auth package",
+  "main": "app.js",
+  "scripts": {
+    "test-init": "./node_modules/jasmine/bin/jasmine.js init",
+    "test": "./node_modules/jasmine/bin/jasmine.js spec/createAccount.spec.js",
+    "start": "nodemon app.js"
+  },
+  "author": "Arsalan",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "assert": "^2.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "multer": "^1.4.2",
+    "mysql2": "^2.0.0",
+    "nodemon": "^1.19.4",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "request": "^2.88.0",
+    "sequelize": "^5.21.2",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  },
+  "apidoc": {
+    "title": "Users API",
+    "url": "https://localhost:5000"
+  }
+}
